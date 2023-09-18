@@ -1,13 +1,23 @@
 @import url(https://fonts.google.com/specimen/Poppins?query=poppins);
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*=".wrapper"] {
+      width: 100%;
+    }
+  }
+
 *{
     margin: 0;
+    
     padding: 0;
     box-sizing:border-box;
+    
 
 }
 
 body{
+    display: grid;
     font-family: 'Poppins', sans-serif;
     background-color: #000;
     color: #fff;
@@ -115,19 +125,6 @@ img{
     height: 100%;
     transform: translateY(100%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
